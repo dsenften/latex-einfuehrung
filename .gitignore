@@ -1,3 +1,6 @@
+# IntelliJ IDEA
+.idea
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -228,15 +231,16 @@ TSWLatexianTemp*
 # KBibTeX
 *~[0-9]*
 
-# auto folder when using emacs and auctex
-./auto/*
-*.el
-
 # expex forward references with \gathertags
 *-tags.tex
 
 # standalone packages
 *.sta
 
-# generated if using elsarticle.cls
-*.spl
+*.gnuplot
+*.table
+
+main.article.pdf
+main.beamer.pdf
+
+/src/main/tex/examples/*.pdf

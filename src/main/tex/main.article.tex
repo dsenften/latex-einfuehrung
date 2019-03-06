@@ -1,0 +1,51 @@
+\documentclass[table]{manual}
+\setjobnamebeamerversion{main.beamer} 
+
+\pagestyle{fancy}
+\rhead{\LaTeX}
+\lhead{\LaTeX\ in 30 Minuten}
+\rfoot{\thepage}
+
+\title{Modul 150}
+\subtitle{E-Business-Applikationen anpassen}
+
+\date{\today}
+\author{abc}
+\author{\href{mailto:daniel.senften@talent-factory.ch}{Daniel Senften}}
+
+
+% ----------------------------------
+
+\begin{document}
+
+    % TODO In der endgültigen Version des Dokumentes den Befehl auskommentieren
+    \fxsetup{draft}
+
+    \setmainfont{Verdana}
+    \DeclareGraphicsExtensions{.pdf,.jpg,.tif}
+    \maketitle
+    \pagestyle{fancy}
+    \newpage
+    
+    \tableofcontents % Inhaltsverzeichnis
+    \listoffixmes
+
+    \parindent0em\parskip1em
+    \newpage
+
+    \input{manual.tex}
+
+%    \newpage\appendix
+%    \section{Verzeichnisse}
+%    \parindent0em\parskip0em
+%    \listoffigures   % Abbildungsverzeichnis
+%    \listoftables    % Tabellenverzeichnis
+%    \listofexercises % Liste der Übungen
+%
+%    \renewcommand{\listoflistingscaption}{Programmbeispiele}
+%    \listoflistings
+%
+%    \bibliographystyle{plain} % We choose the "plain" | "alpha" reference style
+%    \bibliography{bibliography}
+
+\end{document}
